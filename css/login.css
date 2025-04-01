@@ -28,8 +28,9 @@
 .login-container {
   display: flex;
   justify-content: center;
-
-  gap: 130px;
+  height: 80vh;
+  justify-content: space-evenly;
+  margin-top: 2%;
 
 }
 
@@ -37,8 +38,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 78px;
-    padding: 0 60px;
+
+    padding: 70px 40px 60px 40px;
     background-color: #fbfbfb;
     border: 1px solid #ddd;
     border-radius: 30px;
@@ -49,10 +50,7 @@
 
 .login-form h1 {
     width: 80%;
-    margin-bottom: 90px;
-    margin-top: 89px;
-    margin-right: 5%;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
     color: #333;
 }
@@ -63,6 +61,7 @@
     background-color: #fe8100;
     padding: 15px 0;
     width: 100%;
+
     border-radius: 50px;
     border: none;
     color: #fff;
@@ -72,6 +71,19 @@
     transition: background-color 0.3s ease;
 }
 
+.divider-line {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 50px 0;
+  width: 100%; 
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 15%;
+}
 
 
 #email,
@@ -79,23 +91,64 @@
     font-size: 16px;
     color: #333;
     background-color: #f2f2f4;
+ 
 
-    padding: 17px 198px 17px 17px; 
-    margin-bottom: 15px;
+    padding: 17px 198px 17px 17px;
+
     border: none;
     border-radius: 50px;
     outline: none;
 }
 
 .signup-link {
-    margin-top: 20px;
+
     font-size: 14px;
     color: #333;
+
+    text-align: center;
 }
 
 .signup-link a {
     color: #fe8100;
     text-decoration: none;
     font-weight: 700;
+
 }
 
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+.signup-icon {
+  display: block; 
+  margin-left: 184px;
+  width: 10px;
+  height: 10px;
+}
+
+.vertical-line{
+  width: 1px;
+  height: 80vh;
+  background-color: #ddd;
+}
+
+.welcome-section {
+  position: relative;
+
+
+
+}
+
+.welcome-image {
+  height: 80vh;
+
+}
+
+.welcome-section h2 {
+  position: absolute;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #E9ECF2;
+  font-size: 2.5rem;
+  padding: 50px 0 0 39px
+}
