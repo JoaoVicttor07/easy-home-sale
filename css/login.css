@@ -9,6 +9,7 @@
 
 .header {
   background-color: #1e1e1e;
+
 }
 
 .header p {
@@ -21,8 +22,8 @@
   display: flex;
   align-items: center;
   gap: 22px;
-  padding: 32px 0 30px 0;
-  margin-left: 210px;
+  padding: 20px 0;
+  margin-left: 10%;
 }
 
 .login-container {
@@ -74,7 +75,7 @@
 .divider-line {
   border: none;
   border-top: 1px solid #ddd;
-  margin: 50px 0;
+
   width: 100%; 
 }
 
@@ -146,9 +147,9 @@
 
 .welcome-section h2 {
   position: absolute;
-  font-size: 1rem;
+  font-size: 32px;
+  top: 7%;
+  left: 5%;
   font-weight: 400;
   color: #E9ECF2;
-  font-size: 2.5rem;
-  padding: 50px 0 0 39px
 }
