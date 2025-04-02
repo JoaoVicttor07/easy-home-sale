@@ -16,10 +16,13 @@
   <body>
     <header class="header">
       <div class="logo-container">
-        <img src="./images/Logo.png" alt="Logo da Agência Batatinha" class="logo" />
+        <img
+          src="./images/Logo.png"
+          alt="Logo da Agência Batatinha"
+          class="logo"
+        />
         <p class="company-name">Agência batatinha</p>
       </div>
-    
     </header>
 
     <main class="login-container">
@@ -28,30 +31,49 @@
         <form class="form-container" action="#" method="POST">
           <div class="input-group">
             <label for="email"></label>
-            <input type="email" id="email" name="email" placeholder="Email" required />
+            <input type="email" id="email" name="email" placeholder="Email" />
           </div>
           <div class="input-group">
             <label for="password"></label>
-            <input type="password" id="password" name="password" placeholder="Senha" required />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Senha"
+            />
+            <span id="error-message"></span>
+            <span id="success-message"></span>
           </div>
           <button type="submit" class="btn-login">Entrar</button>
           <hr class="divider-line" />
         </form>
         <p class="signup-link">
-          Não possui uma conta? 
+          Não possui uma conta?
           <a href="/signup.html">Criar</a>
-          <img src="/images/Ellipse 2.png" alt="Bola laranja" class="signup-icon" />
+          <img
+            src="/images/Ellipse 2.png"
+            alt="Bola laranja"
+            class="signup-icon"
+          />
         </p>
       </section>
 
       <div class="vertical-line"></div>
 
-
       <section class="welcome-section">
         <h2>Bem-vindo à agência Batatinha</h2>
-        <img src="./images/image.png" alt="Imagem de um imóvel" class="welcome-image" />
-      </section> 
-      
+        <img
+          src="./images/image.png"
+          alt="Imagem de um imóvel"
+          class="welcome-image"
+        />
+      </section>
     </main>
+
+    <script src="./js/validations.js"></script>
+    <script>
+      const form = document.querySelector(".form-container");
+      form.addEventListener("submit", loginUser);
+    </script>
   </body>
 </html>

@@ -17,7 +17,11 @@
     <!-- Cabeçalho -->
     <header class="header">
       <div class="logo-container">
-        <img src="./images/Logo.png" alt="Logo da Agência Batatinha" class="logo" />
+        <img
+          src="./images/Logo.png"
+          alt="Logo da Agência Batatinha"
+          class="logo"
+        />
         <p class="company-name">Agência batatinha</p>
       </div>
     </header>
@@ -30,21 +34,39 @@
         <form class="form-container" action="#" method="POST">
           <div class="input-group">
             <label for="email"></label>
-            <input type="email" id="email" name="email" placeholder="Email" required />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
           </div>
           <div class="input-group">
             <label for="password"></label>
-            <input type="password" id="password" name="password" placeholder="Senha" required />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Senha"
+              required
+            />
           </div>
           <div class="input-group">
             <label for="confirm-password"></label>
-            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirmar Senha" required />
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm-password"
+              placeholder="Confirmar Senha"
+              required
+            />
           </div>
           <button type="submit" class="btn-login">Registro</button>
           <hr class="divider-line" />
         </form>
         <p class="signup-link">
-          Já possui uma conta? 
+          Já possui uma conta?
           <a href="index.html">Conecte-se</a>
         </p>
       </section>
@@ -53,8 +75,18 @@
       <div class="vertical-line"></div>
       <section class="welcome-section">
         <h2>Bem-vindo à agência Batatinha</h2>
-        <img src="./images/image.png" alt="Imagem de um imóvel" class="welcome-image" />
+        <img
+          src="./images/image.png"
+          alt="Imagem de um imóvel"
+          class="welcome-image"
+        />
       </section>
     </main>
+
+    <script src="./js/validations.js"></script>
+    <script>
+      const form = document.querySelector(".form-container");
+      form.addEventListener("submit", registerUser);
+    </script>
   </body>
 </html>
