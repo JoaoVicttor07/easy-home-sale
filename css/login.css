@@ -75,7 +75,7 @@
 .divider-line {
   border: none;
   border-top: 1px solid #ddd;
-
+  margin: 2vh 0;
   width: 100%; 
 }
 
