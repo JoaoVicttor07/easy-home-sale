@@ -148,7 +148,8 @@
 .welcome-section h2 {
   position: absolute;
   font-size: 32px;
-  top: 7%;
+  width: 350px;
+  top: 5%;
   left: 5%;
   font-weight: 400;
   color: #E9ECF2;
