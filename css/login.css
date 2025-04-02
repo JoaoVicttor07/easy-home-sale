@@ -88,7 +88,7 @@
 
 
 #email,
-#password {
+#password, #confirm-password {
     font-size: 16px;
     color: #333;
     background-color: #f2f2f4;

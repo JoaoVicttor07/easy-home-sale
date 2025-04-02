@@ -10,21 +10,23 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/login.css" />
-    <title>Agência Batatinha - Login</title>
+    <title>Agência Batatinha - Cadastro</title>
   </head>
 
   <body>
+    <!-- Cabeçalho -->
     <header class="header">
       <div class="logo-container">
         <img src="./images/Logo.png" alt="Logo da Agência Batatinha" class="logo" />
         <p class="company-name">Agência batatinha</p>
       </div>
-    
     </header>
 
+    <!-- Conteúdo Principal -->
     <main class="login-container">
+      <!-- Formulário de Cadastro -->
       <section class="login-form">
-        <h1>Entre com seu email e senha</h1>
+        <h1>Cadastre-se com E-mail e Senha</h1>
         <form class="form-container" action="#" method="POST">
           <div class="input-group">
             <label for="email"></label>
@@ -34,24 +36,25 @@
             <label for="password"></label>
             <input type="password" id="password" name="password" placeholder="Senha" required />
           </div>
-          <button type="submit" class="btn-login">Entrar</button>
+          <div class="input-group">
+            <label for="confirm-password"></label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirmar Senha" required />
+          </div>
+          <button type="submit" class="btn-login">Registro</button>
           <hr class="divider-line" />
         </form>
         <p class="signup-link">
-          Não possui uma conta? 
-          <a href="/signup.html">Criar</a>
-          <img src="/images/Ellipse 2.png" alt="Bola laranja" class="signup-icon" />
+          Já possui uma conta? 
+          <a href="index.html">Conecte-se</a>
         </p>
       </section>
 
+      <!-- Seção de Boas-Vindas -->
       <div class="vertical-line"></div>
-
-
       <section class="welcome-section">
         <h2>Bem-vindo à agência Batatinha</h2>
         <img src="./images/image.png" alt="Imagem de um imóvel" class="welcome-image" />
-      </section> 
-      
+      </section>
     </main>
   </body>
 </html>
