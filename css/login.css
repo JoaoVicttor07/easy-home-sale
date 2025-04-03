@@ -5,11 +5,8 @@
   font-family: "Poppins", sans-serif;
 }
 
-
-
 .header {
   background-color: #1e1e1e;
-
 }
 
 .header p {
@@ -28,97 +25,93 @@
 
 .login-container {
   display: flex;
-  justify-content: center;
-  height: 80vh;
+  align-items: center;
   justify-content: space-evenly;
-  margin-top: 2.3rem;
-
+  height: calc(100vh - 80px);
 }
 
 .login-form {
-    /* padding: 70px 40px 60px 40px; */
-    padding: 3rem 2rem 3rem 2rem;
-    background-color: #fbfbfb;
-    border: 1px solid #ddd;
-    border-radius: 30px;
-    height: 100%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  height: 80vh;
+  background-color: #fbfbfb;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .login-form h1 {
-    width: 80%;
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: #333;
+  padding: 0 2rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
 }
 
-
-
 .btn-login {
-    background-color: #fe8100;
-    padding: 15px 0;
-    border-radius: 50px;
-    border: none;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  background-color: #fe8100;
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .divider-line {
   border: none;
   border-top: 1px solid #ddd;
-  margin: 2vh 0;
-  width: 100%; 
 }
 
 .form-container {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  padding-top: 3rem;
+  gap: 3rem;
+  width: 80%;
 }
 
-
 #email,
-#password, #confirm-password {
-    font-size: 16px;
-    color: #333;
-    background-color: #f2f2f4;
-    width: 100%;
-    padding: 1rem 2rem 1rem 2rem;
-  /*  padding: 15px 35px 15px 35px; */
-    border: none;
-    border-radius: 50px;
-    outline: none;
+#password,
+#confirm-password {
+  font-size: 16px;
+  color: #333;
+  background-color: #f2f2f4;
+  width: 100%;
+  padding: 15px 15px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
 }
 
 #success-message {
-    color: green;
-    font-size: 14px;
-    margin-top: 10px;
-    display: none;
+  color: green;
+  font-size: 14px;
+  margin-top: 10px;
+  display: none;
 }
 
 #error-message {
-    color: red;
-    font-size: 14px;
-    margin-top: 10px;
-    display: none;
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  display: none;
 }
 
 .signup-link {
-    font-size: 14px;
-    color: #333;
-    text-align: center;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
 }
 
 .signup-link a {
-    color: #fe8100;
-    text-decoration: none;
-    font-weight: 700;
+  color: #fe8100;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .signup-link a:hover {
@@ -126,13 +119,13 @@
 }
 
 .signup-icon {
-  display: block; 
-  margin-left: 245px;
+  display: block;
+  margin-left: 183px;
   width: 10px;
   height: 10px;
 }
 
-.vertical-line{
+.vertical-line {
   width: 1px;
   height: 80vh;
   background-color: #ddd;
@@ -140,22 +133,17 @@
 
 .welcome-section {
   position: relative;
-
-
-
 }
 
 .welcome-image {
   height: 80vh;
-
 }
 
 .welcome-section h2 {
   position: absolute;
-  font-size: 32px;
-  width: 350px;
+  font-size: 2rem;
   top: 5%;
   left: 5%;
   font-weight: 400;
-  color: #E9ECF2;
+  color: #e9ecf2;
 }
