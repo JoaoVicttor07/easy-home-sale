@@ -33,35 +33,35 @@
         <h1>Cadastre-se com E-mail e Senha</h1>
         <form class="form-container" action="#" method="POST">
           <div class="input-group">
-            <label for="email"></label>
+            <label for="register-email"></label>
             <input
               type="email"
-              id="email"
+              id="register-email"
               name="email"
               placeholder="Email"
-              required
             />
           </div>
           <div class="input-group">
-            <label for="password"></label>
+            <label for="register-password"></label>
             <input
               type="password"
-              id="password"
+              id="register-password"
               name="password"
               placeholder="Senha"
-              required
             />
           </div>
           <div class="input-group">
-            <label for="confirm-password"></label>
+            <label for="register-confirm-password"></label>
             <input
               type="password"
-              id="confirm-password"
+              id="register-confirm-password"
               name="confirm-password"
               placeholder="Confirmar Senha"
-              required
             />
+            <span id="register-error-message" class="error-message"></span>
+            <span id="register-success-message"></span>
           </div>
+
           <button type="submit" class="btn-login">Registro</button>
           <hr class="divider-line" />
         </form>
@@ -82,6 +82,13 @@
         />
       </section>
     </main>
+
+    <div id="success-modal" class="modal hidden">
+      <div class="modal-content">
+        <h2>Usuário cadastrado com sucesso!</h2>
+        <button id="go-to-login" class="btn-login">Ir para Login</button>
+      </div>
+    </div>
 
     <script src="./js/validations.js"></script>
     <script>
