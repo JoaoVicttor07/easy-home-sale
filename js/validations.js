@@ -7,7 +7,6 @@ function registerUser(event) {
     "register-confirm-password"
   ).value;
   const errorMessage = document.getElementById("register-error-message");
-  const sucessMessage = document.getElementById("register-success-message");
   const successModal = document.getElementById("success-modal");
   const goToLoginButton = document.getElementById("go-to-login");
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -61,7 +60,7 @@ function registerUser(event) {
   users.push({ email, password });
   localStorage.setItem("users", JSON.stringify(users));
 
-
+  errorMessage.style.display = "none";
   successModal.classList.remove("hidden");
   goToLoginButton.addEventListener("click", () => {
     window.location.href = "index.html";
