@@ -30,44 +30,57 @@
     </header>
 
     <div class="welcome-container">
-      <p class="welcome-text" >Encontre as melhores casas, pontos comerciais e hoteis</p>
-      <img src="/images/house-img.png" alt="uma casa grande" class="welcome-img" />
+      <p class="welcome-text">
+        Encontre as melhores casas, pontos comerciais e hoteis
+      </p>
+      <img
+        src="/images/house-img.png"
+        alt="uma casa grande"
+        class="welcome-img"
+      />
     </div>
 
-    <section class="services">
-      <h2>Nossos Serviços</h2>
-      <div class="services-container">
-        <div class="service-card">
-          <h3>Residenciais</h3>
-          <p>123 ofertas</p>
+    <main class="main-container">
+      <section class="services">
+        <h2>Nossos Serviços</h2>
+        <div class="services-container">
+
+          <div class="service-card">
+            <img src="/images/residence.png" alt="" />
+            <h3>Residenciais</h3>
+            <p>123 ofertas</p>
+          </div>
+          <div class="service-card">
+            <img src="/images/bussines.png" alt="" />
+            <h3>Comerciais</h3>
+            <p>93 ofertas</p>
+          </div>
+          <div class="service-card">
+            <img src="/images/hotel.png" alt="" />
+            <h3>Hotéis</h3>
+            <p>23 ofertas</p>
+          </div>
+          
         </div>
-        <div class="service-card">
-          <h3>Comerciais</h3>
-          <p>93 ofertas</p>
-        </div>
-        <div class="service-card">
-          <h3>Hotéis</h3>
-          <p>23 ofertas</p>
+      </section>
+
+      <section class="opportunities">
+        <h2>Melhores Oportunidades</h2>
+        <div id="opportunities-container" class="opportunities-container"></div>
+      </section>
+
+      <div id="property-modal" class="modal hidden">
+        <div class="modal-content">
+          <span id="close-modal" class="close-modal">X</span>
+          <img id="modal-image" src="" alt="Imagem do imóvel" />
+          <h3 id="modal-title"></h3>
+          <p id="modal-price"></p>
+          <p id="modal-size"></p>
+          <p id="modal-bedrooms"></p>
+          <p id="modal-bathrooms"></p>
         </div>
       </div>
-    </section>
-
-    <section class="opportunities">
-      <h2>Melhores Oportunidades</h2>
-      <div id="opportunities-container" class="opportunities-container"></div>
-    </section>
-
-    <div id="property-modal" class="modal hidden">
-      <div class="modal-content">
-        <span id="close-modal" class="close-modal">X</span>
-        <img id="modal-image" src="" alt="Imagem do imóvel" />
-        <h3 id="modal-title"></h3>
-        <p id="modal-price"></p>
-        <p id="modal-size"></p>
-        <p id="modal-bedrooms"></p>
-        <p id="modal-bathrooms"></p>
-      </div>
-    </div>
+    </main>
 
     <footer class="footer">
       <p>Contato: agencia_batatinha@contato.com | (99) 9999-9999</p>

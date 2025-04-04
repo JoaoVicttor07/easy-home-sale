@@ -9,8 +9,8 @@ fetch('./data.json')
       card.innerHTML = `
         <img src="${property.image}" alt="Imagem do imóvel ${index + 1}" />
         <h3>${property.name || 'Imóvel'}</h3>
-        <p>Preço: ${property.price}</p>
-        <p>Área: ${property.size} m²</p>
+        <p>${property.price}</p>
+        <p>${property.size} m²</p>
         <p>${property.bedrooms} quartos | ${property.bathrooms} banheiros</p>
       `;
       card.addEventListener('click', () => openModal(property));
