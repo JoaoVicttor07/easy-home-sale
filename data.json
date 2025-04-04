@@ -1,0 +1,26 @@
+[
+    {
+      "image": "https://via.placeholder.com/250",
+      "name": "Casa Moderna",
+      "price": "R$ 2.000.000",
+      "size": 320,
+      "bedrooms": 4,
+      "bathrooms": 3
+    },
+    {
+      "image": "https://via.placeholder.com/250",
+      "name": "Apartamento Luxuoso",
+      "price": "R$ 1.400.000",
+      "size": 150,
+      "bedrooms": 3,
+      "bathrooms": 2
+    },
+    {
+      "image": "https://via.placeholder.com/250",
+      "name": "Cobertura Exclusiva",
+      "price": "R$ 3.500.000",
+      "size": 400,
+      "bedrooms": 5,
+      "bathrooms": 4
+    }
+  ]

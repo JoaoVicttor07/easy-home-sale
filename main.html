@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Agência Batatinha - Página Principal</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-container">
+        <img
+          src="./images/Logo.png"
+          alt="Logo da Agência Batatinha"
+          class="logo"
+        />
+        <p class="company-name">Agência Batatinha</p>
+      </div>
+
+      <nav>
+        <p id="contact">Contato</p>
+        <button id="logout">Sair</button>
+      </nav>
+    </header>
+
+    <div class="welcome-container">
+      <p class="welcome-text" >Encontre as melhores casas, pontos comerciais e hoteis</p>
+      <img src="/images/house-img.png" alt="uma casa grande" class="welcome-img" />
+    </div>
+
+    <section class="services">
+      <h2>Nossos Serviços</h2>
+      <div class="services-container">
+        <div class="service-card">
+          <h3>Residenciais</h3>
+          <p>123 ofertas</p>
+        </div>
+        <div class="service-card">
+          <h3>Comerciais</h3>
+          <p>93 ofertas</p>
+        </div>
+        <div class="service-card">
+          <h3>Hotéis</h3>
+          <p>23 ofertas</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="opportunities">
+      <h2>Melhores Oportunidades</h2>
+      <div id="opportunities-container" class="opportunities-container"></div>
+    </section>
+
+    <div id="property-modal" class="modal hidden">
+      <div class="modal-content">
+        <span id="close-modal" class="close-modal">X</span>
+        <img id="modal-image" src="" alt="Imagem do imóvel" />
+        <h3 id="modal-title"></h3>
+        <p id="modal-price"></p>
+        <p id="modal-size"></p>
+        <p id="modal-bedrooms"></p>
+        <p id="modal-bathrooms"></p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>Contato: agencia_batatinha@contato.com | (99) 9999-9999</p>
+      <div class="social-links">
+        <a href="#">Facebook</a> | <a href="#">Instagram</a> |
+        <a href="#">Twitter</a>
+      </div>
+      <button id="scroll-to-top" class="btn-login">Voltar ao topo</button>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
