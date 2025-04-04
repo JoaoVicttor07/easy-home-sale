@@ -7,17 +7,57 @@
       "bathrooms": 3
     },
     {
-      "image": "https://via.placeholder.com/250",
+      "image": "/images/imovel-2.png",
       "price": "R$ 1.400.000",
       "size": 150,
       "bedrooms": 3,
       "bathrooms": 2
     },
     {
-      "image": "https://via.placeholder.com/250",
+      "image": "/images/imovel-3.png",
       "price": "R$ 3.500.000",
       "size": 400,
       "bedrooms": 5,
       "bathrooms": 4
+    },
+
+    {
+      "image": "/images/imovel-3.png",
+      "price": "R$ 2.200.000",
+      "size": 232,
+      "bedrooms": 5,
+      "bathrooms": 5
+    },
+
+    {
+      "image": "/images/imovel-3.png",
+      "price": "R$ 2.200.000",
+      "size": 232,
+      "bedrooms": 5,
+      "bathrooms": 5
+    },
+
+    {
+      "image": "/images/imovel-3.png",
+      "price": "R$ 2.200.000",
+      "size": 232,
+      "bedrooms": 5,
+      "bathrooms": 5
+    },
+
+    {
+      "image": "/images/imovel-3.png",
+      "price": "R$ 2.200.000",
+      "size": 232,
+      "bedrooms": 5,
+      "bathrooms": 5
+    },
+
+    {
+      "image": "/images/imovel-3.png",
+      "price": "R$ 2.200.000",
+      "size": 232,
+      "bedrooms": 5,
+      "bathrooms": 5
     }
   ]

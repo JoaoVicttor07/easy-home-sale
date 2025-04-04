@@ -97,7 +97,6 @@ nav {
 
 .service-card {
   border-radius: 10px;
-  padding: 1rem;
   text-align: center;
 
 }
@@ -117,26 +116,24 @@ nav {
 
 }
 
-.opportunities-container {
-  display: flex;
-  flex-wrap: wrap;
+.opportunities h2 {
+  font-size: 2.25rem;
+  font-weight: 400;
+}
 
+.opportunities-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
 }
 
 .opportunity-card {
-  background-color: #fbfbfb;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 1rem;
-  width: 250px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
 
 .opportunity-card img {
   width: 100%;
-  border-radius: 10px;
+
 }
 
 
