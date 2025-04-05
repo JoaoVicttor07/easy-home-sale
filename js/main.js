@@ -1,4 +1,3 @@
-
 fetch('./data.json')
   .then((response) => response.json())
   .then((data) => {
@@ -8,11 +7,14 @@ fetch('./data.json')
       card.classList.add('opportunity-card');
       card.innerHTML = `
         <img src="${property.image}" alt="Imagem do imóvel ${index + 1}" />
- 
-        <p>${property.price}</p>
-        <p>${property.size} m²</p>
-        <p>${property.bedrooms} quartos</p>
-        <p>${property.bathrooms} banheiros</p>
+        <p class="property-price">${property.price}</p>
+        <p class="property-size">${property.size} m²</p>
+        <div class="property-details">
+          <p class="property-bedrooms">${property.bedrooms} quartos</p>
+          <p class="property-bathrooms">${property.bathrooms} banheiros</p>
+        </div>
+          
+        
       `;
       card.addEventListener('click', () => openModal(property));
       container.appendChild(card);
