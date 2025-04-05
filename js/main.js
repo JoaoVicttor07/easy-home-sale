@@ -6,7 +6,7 @@ fetch('./data.json')
       const card = document.createElement('div');
       card.classList.add('opportunity-card');
       card.innerHTML = `
-        <img src="${property.image}" alt="Imagem do imóvel ${index + 1}" />
+        <img class="property-img" src="${property.image}" alt="Imagem do imóvel ${index + 1}" />
         <p class="property-price">${property.price}</p>
         <p class="property-size">${property.size} m²</p>
         <div class="property-details">
@@ -25,9 +25,8 @@ fetch('./data.json')
 function openModal(property) {
   const modal = document.getElementById('property-modal');
   document.getElementById('modal-image').src = property.image;
-  document.getElementById('modal-title').textContent = property.name || 'Imóvel';
-  document.getElementById('modal-price').textContent = `Preço: ${property.price}`;
-  document.getElementById('modal-size').textContent = `Área: ${property.size} m²`;
+  document.getElementById('modal-price').textContent = property.price;
+  document.getElementById('modal-size').textContent =  `${property.size} m²`;
   document.getElementById('modal-bedrooms').textContent = `${property.bedrooms} quartos`;
   document.getElementById('modal-bathrooms').textContent = `${property.bathrooms} banheiros`;
   modal.classList.remove('hidden');
