@@ -32,6 +32,13 @@ function openModal(property) {
   modal.classList.remove('hidden');
 }
 
+document.getElementById('property-modal').addEventListener('click', (event) => {
+  const modalContent = document.querySelector('.modal-content');
+  if (!modalContent.contains(event.target)) {
+    document.getElementById('property-modal').classList.add('hidden');
+  }
+});
+
 document.getElementById('close-modal').addEventListener('click', () => {
   document.getElementById('property-modal').classList.add('hidden');
 });
