@@ -26,7 +26,7 @@ function openModal(property) {
   const modal = document.getElementById('property-modal');
   document.getElementById('modal-image').src = property.image;
   document.getElementById('modal-price').textContent = property.price;
-  document.getElementById('modal-size').textContent =  `${property.size} m²`;
+  document.getElementById('modal-size').textContent = `${property.size} m²`;
   document.getElementById('modal-bedrooms').textContent = `${property.bedrooms} quartos`;
   document.getElementById('modal-bathrooms').textContent = `${property.bathrooms} banheiros`;
   modal.classList.remove('hidden');

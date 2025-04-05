@@ -29,7 +29,6 @@ nav {
   display: flex;
   align-items: center;
   gap: 4rem;
-
 }
 
 #contact {
@@ -93,13 +92,11 @@ nav {
   display: flex;
   justify-content: space-between;
   padding-top: 1rem;
-
 }
 
 .service-card {
   border-radius: 10px;
   text-align: center;
-
 }
 
 .service-card h3 {
@@ -133,6 +130,8 @@ nav {
 
 .opportunity-card img {
   width: 100%;
+  height: 60%;
+  border-radius: 10px;
 
 }
 
@@ -155,7 +154,8 @@ nav {
   gap: 25px;
 }
 
-.property-bathrooms, .property-bedrooms {
+.property-bathrooms,
+.property-bedrooms {
   background-color: #fe8100;
   border-radius: 10px;
   padding: 5px 16px;
@@ -186,7 +186,7 @@ nav {
   display: flex;
   flex-direction: column;
   background-color: #fbfbfb;
-  padding: 1.5rem;
+  padding: 2rem;
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -200,13 +200,18 @@ nav {
   top: 10px;
   right: 10px;
   cursor: pointer;
-  font-size: 1.5rem;
-  color: #333;
+}
+
+#close-modal-vector {
+  width: 65%;
+}
+
+#modal-image {
+  border-radius: 10px;
 }
 
 
-
-.modal-texts-content{
+.modal-texts-content {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -233,7 +238,8 @@ nav {
   gap: 1rem;
 }
 
-#modal-bedrooms, #modal-bathrooms{
+#modal-bedrooms,
+#modal-bathrooms {
   font-size: 1rem;
   background-color: #E9ECF2;
   padding: 10px 30px;
@@ -315,13 +321,13 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem; 
-  text-align: center; 
-  flex-wrap: wrap; 
+  gap: 1rem;
+  text-align: center;
+  flex-wrap: wrap;
 }
 
 
-.middle-text{
+.middle-text {
   align-self: end;
 }
 
