@@ -1,58 +1,99 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  background-color: #1e1e1e;
+}
+
+.header p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 1rem 0;
+  margin-left: 10%;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: calc(100vh - 80px);
 }
 
 .not-found-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5rem 10rem;
-    height: calc(100vh - 80px);
-  }
-  
-  .not-found-content {
-    max-width: 50%;
-  }
-  
-  .not-found-content h1 {
-    font-size: 3rem;
-    color: #fe8100;
-    font-weight: 700;
-  }
-  
-  .not-found-content h2 {
-    font-size: 2.5rem;
-    color: #343434;
-    font-weight: 700;
-    margin: 1rem 0;
-  }
-  
-  .not-found-content p {
-    font-size: 1.25rem;
-    color: #848383;
-    margin-bottom: 2rem;
-  }
-  
-  .btn-back {
-    display: inline-block;
-    background-color: #fe8100;
-    color: #fff;
-    font-size: 1.25rem;
-    font-weight: 700;
-    padding: 1rem 3rem;
-    border-radius: 50px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn-back:hover {
-    background-color: #e66f00;
-  }
-  
-  .not-found-image img {
-    max-width: 100%;
-    height: auto;
-  }
+
+  max-width: 40%;
+}
+
+.not-found-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+}
+
+.not-found-content h1 {
+  font-size: 3rem;
+  color: #fe8100;
+  font-weight: 700;
+}
+
+.not-found-content h2 {
+  word-wrap: break-word;
+  font-size: 4.5rem;
+  color: #343434;
+  font-weight: 900;
+}
+
+.not-found-content p {
+  font-size: 1.25rem;
+  color: #848383;
+  margin-bottom: 2rem;
+}
+
+.btn-back {
+  text-align: center;
+  width: 90%;
+  background-color: #fe8100;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-radius: 50px;
+  padding: 1rem 0;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.contact-social-media {
+  position: absolute;
+  bottom: 4%;
+}
+
+.contact-social-media a {
+  margin-right: 10px;
+}
+
+.btn-back:hover {
+  background-color: #e66f00;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 80vh;
+  background-color: #ddd;
+}
+
+.not-found-image img {
+
+  height: auto;
+}
+
