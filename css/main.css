@@ -5,6 +5,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -34,6 +38,7 @@ nav {
 #contact {
   font-size: 1.25rem;
   color: #fff;
+  text-decoration: none;
 }
 
 #logout {
