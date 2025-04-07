@@ -81,6 +81,14 @@
   margin-right: 10px;
 }
 
+.contact-social-media a img {
+  transition: transform 0.3s ease;
+}
+
+.contact-social-media a img:hover {
+  transform: scale(1.1);
+}
+
 .btn-back:hover {
   background-color: #e66f00;
 }
