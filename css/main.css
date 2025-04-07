@@ -126,6 +126,7 @@ nav {
 
 .opportunity-card {
   cursor: pointer;
+  padding-bottom: 2rem;
 }
 
 .opportunity-card img {
@@ -133,6 +134,12 @@ nav {
   height: 60%;
   border-radius: 10px;
 
+}
+
+.property-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #343434;
 }
 
 .property-price {

@@ -7,6 +7,7 @@ fetch('./data.json')
       card.classList.add('opportunity-card');
       card.innerHTML = `
         <img class="property-img" src="${property.image}" alt="Imagem do imóvel ${index + 1}" />
+        <h3 class="property-name">${property.name}</h3>
         <p class="property-price">${property.price}</p>
         <p class="property-size">${property.size} m²</p>
         <div class="property-details">
